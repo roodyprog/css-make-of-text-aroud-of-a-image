@@ -1,0 +1,35 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: rgb(106, 190, 162);
+}
+
+
+/*  CONTAINER   */
+.container{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding:30px;
+    background:rgb(19, 114, 109);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px rgba(0, 0,0, 1);
+}
+
+/*  CIRCLE  */
+.circle{
+    width: 200px;
+    height: 200px;
+    background: url("https://source.unsplash.com/1600x900/?informatique,animals,nature,montain");
+    background-size: cover;
+    border-radius: 50%;
+    float: left;
+    /* shape-outside:circle(); permet au text de contouré le cercle  */
+    shape-outside:circle();
+    margin: 20px;
+
+}
